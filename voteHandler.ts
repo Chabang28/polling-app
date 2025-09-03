@@ -19,3 +19,4 @@ function voteHandler(votes: number[], newVote: number): number[] {
 const currentVotes = [1, 2, 1];
 const newVotes = voteHandler(currentVotes, 2);
 console.log(newVotes); // [1, 2, 1, 2]
+// TEMP: Day8 refactor test line
