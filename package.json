@@ -1,0 +1,19 @@
+{
+  "name": "polling-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc --project tsconfig.json && node tests/test-runner.js && node scripts/bench.js",
+    "dev:watch": "nodemon --watch src --ext ts --exec \"npm run dev\"",
+    "test": "node tests/test-runner.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.0",
+    "typescript": "^5.2.2",
+    "nodemon": "^3.0.2"
+  }
+}

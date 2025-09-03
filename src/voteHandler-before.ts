@@ -19,4 +19,5 @@ export function voteHandlerBefore(
     }
   }
   return polls;
+}
 
